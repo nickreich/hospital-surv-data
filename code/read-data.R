@@ -1,9 +1,10 @@
 ## data should be stored in hospital-surv-data/data
 
 require(reshape2)
+require(ggplot2)
 
 ## load data
-dat <- read.csv("data/chco.csv")
+dat <- read.csv("chco.csv")
 
 ## fix dates
 dat$Date <- as.Date(dat$Date..Month.Year., "%m/%d/%y")

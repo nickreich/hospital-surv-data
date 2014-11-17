@@ -12,3 +12,6 @@
 *.Rproj
 
 data/
+.Rproj.user
+
+chco.csv
